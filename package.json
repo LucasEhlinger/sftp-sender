@@ -1,0 +1,15 @@
+{
+  "name": "sftp-sender",
+  "version": "1.0.0",
+  "description": "send files coming to a directory to a server using sftp",
+  "main": "sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L.Ehlinger",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "sftp-node": "0.0.8"
+  }
+}
